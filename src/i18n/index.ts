@@ -20,6 +20,7 @@ i18n
           whatsappBotDescription:
             'A versatile WhatsApp bot featuring multiple commands including sticker generation from photos, videos, or GIFs, saved audio management, and administrative tools.',
           visitProject: 'Visit Project',
+          bookMeeting: 'Book a meeting',
           connectTitle: "Let's Connect",
         },
       },
@@ -36,6 +37,7 @@ i18n
           whatsappBotDescription:
             'Um bot versátil para WhatsApp com múltiplos comandos incluindo geração de figurinhas a partir de fotos, vídeos ou GIFs, gerenciamento de áudios salvos e ferramentas administrativas.',
           visitProject: 'Visitar Projeto',
+          bookMeeting: 'Agendar reunião',
           connectTitle: 'Vamos Conectar',
         },
       },
