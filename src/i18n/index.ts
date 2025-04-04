@@ -17,6 +17,8 @@ i18n
           projectsTitle: 'Projects Showcase',
           hinarioDescription:
             "A digital version of the Brazilian Presbyterian Church's Novo Cântico hymnal. It is a mobile app providing easy access to music and lyrics.",
+          whatsappBotDescription:
+            'A versatile WhatsApp bot featuring multiple commands including sticker generation from photos, videos, or GIFs, saved audio management, and administrative tools.',
           visitProject: 'Visit Project',
           connectTitle: "Let's Connect",
         },
@@ -31,6 +33,8 @@ i18n
           projectsTitle: 'Portfólio de Projetos',
           hinarioDescription:
             'Uma versão digital do hinário Novo Cântico da Igreja Presbiteriana do Brasil. É um aplicativo móvel que fornece fácil acesso às músicas e letras.',
+          whatsappBotDescription:
+            'Um bot versátil para WhatsApp com múltiplos comandos incluindo geração de figurinhas a partir de fotos, vídeos ou GIFs, gerenciamento de áudios salvos e ferramentas administrativas.',
           visitProject: 'Visitar Projeto',
           connectTitle: 'Vamos Conectar',
         },

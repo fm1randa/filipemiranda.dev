@@ -64,6 +64,8 @@ function App() {
                   'Tailwind CSS',
                   'React Native',
                   'Expo',
+                  'MongoDB',
+                  'PostgreSQL',
                 ].map((skill) => (
                   <span
                     key={skill}
@@ -87,6 +89,38 @@ function App() {
             <h2 className="text-2xl font-semibold">{t('projectsTitle')}</h2>
           </div>
           <div className="grid md:grid-cols-1 gap-8">
+            <div className="group relative bg-white/5 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
+              <h3 className="text-xl font-semibold mb-3">
+                Whatsapp Bot (Taki)
+              </h3>
+              <p className="text-gray-400 mb-4">
+                {t('whatsappBotDescription')}
+              </p>
+              <div className="flex items-center justify-between">
+                <a
+                  href="https://wa.me/5521936186163"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300"
+                >
+                  {t('visitProject')} <ExternalLink className="w-4 h-4" />
+                </a>
+                <div className="flex flex-wrap gap-2 justify-end">
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                    TypeScript
+                  </span>
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                    Node.js
+                  </span>
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                    WhatsApp API
+                  </span>
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                    MongoDB
+                  </span>
+                </div>
+              </div>
+            </div>
             <div className="group relative bg-white/5 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
               <h3 className="text-xl font-semibold mb-3">Hinario IPB</h3>
               <p className="text-gray-400 mb-4">{t('hinarioDescription')}</p>
