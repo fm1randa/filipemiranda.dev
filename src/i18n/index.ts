@@ -13,7 +13,7 @@ i18n
           hireMe: 'Hire Me',
           skillsTitle: 'Skills',
           skillsDescription:
-            'Full-Stack Developer specialized in React, Node.js, and NextJS, with a passion for creating performant and scalable web applications.',
+            'Full-Stack Developer specialized in Typescript and React, with a passion for creating performant and scalable applications.',
           projectsTitle: 'Projects Showcase',
           hinarioDescription:
             "A digital version of the Brazilian Presbyterian Church's Novo Cântico hymnal. It is a mobile app providing easy access to music and lyrics.",
@@ -30,7 +30,7 @@ i18n
           hireMe: 'Contrate-me',
           skillsTitle: 'Habilidades',
           skillsDescription:
-            'Desenvolvedor Full-Stack especializado em React, Node.js e NextJS, com paixão por criar aplicações web performáticas e escaláveis.',
+            'Desenvolvedor Full-Stack especializado em Typescript e React, com paixão por criar aplicações performáticas e escaláveis.',
           projectsTitle: 'Portfólio de Projetos',
           hinarioDescription:
             'Uma versão digital do hinário Novo Cântico da Igreja Presbiteriana do Brasil. É um aplicativo móvel que fornece fácil acesso às músicas e letras.',
