@@ -58,10 +58,10 @@ function App() {
               <p className="text-xl text-gray-300">{t('skillsDescription')}</p>
               <div className="flex flex-wrap gap-4">
                 {[
+                  'TypeScript',
                   'React',
                   'Node.js',
                   'NextJS',
-                  'TypeScript',
                   'Tailwind CSS',
                   'React Native',
                   'Expo',
