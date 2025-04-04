@@ -1,4 +1,4 @@
-import React from 'react';
+import type React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Languages } from 'lucide-react';
 
@@ -12,6 +12,7 @@ export const LanguageSwitch: React.FC = () => {
 
   return (
     <button
+      type="button"
       onClick={toggleLanguage}
       className="fixed top-4 right-4 z-50 p-2 bg-white/5 rounded-full hover:bg-white/10 transition-all duration-300"
       aria-label="Toggle language"

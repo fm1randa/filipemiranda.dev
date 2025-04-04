@@ -1,12 +1,21 @@
-import React from 'react';
+import type React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Github, Linkedin, MessageSquare, Mail, ExternalLink, Code2, Terminal, Blocks } from 'lucide-react';
+import {
+  Github,
+  Linkedin,
+  MessageSquare,
+  Mail,
+  ExternalLink,
+  Code2,
+  Terminal,
+  Blocks,
+} from 'lucide-react';
 import { LanguageSwitch } from './components/LanguageSwitch';
 
 function App() {
   const { t } = useTranslation();
 
-  const scrollToContact = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const scrollToContact = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     const contactSection = document.getElementById('contact');
     contactSection?.scrollIntoView({ behavior: 'smooth' });
@@ -26,13 +35,13 @@ function App() {
           <p className="text-xl md:text-2xl text-gray-300 mb-8 font-light">
             {t('role')}
           </p>
-          <a
-            href="#contact"
+          <button
+            type="button"
             onClick={scrollToContact}
             className="inline-block px-8 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full text-white font-semibold hover:from-cyan-600 hover:to-purple-700 transition-all duration-300 shadow-lg shadow-purple-500/25"
           >
             {t('hireMe')}
-          </a>
+          </button>
         </div>
       </div>
 
@@ -45,11 +54,15 @@ function App() {
                 <Code2 className="w-8 h-8 text-cyan-400" />
                 <h2 className="text-2xl font-semibold">{t('skillsTitle')}</h2>
               </div>
-              <p className="text-xl text-gray-300">
-                {t('skillsDescription')}
-              </p>
+              <p className="text-xl text-gray-300">{t('skillsDescription')}</p>
               <div className="flex flex-wrap gap-4">
-                {['React', 'Node.js', 'NextJS', 'TypeScript', 'Tailwind CSS'].map((skill) => (
+                {[
+                  'React',
+                  'Node.js',
+                  'NextJS',
+                  'TypeScript',
+                  'Tailwind CSS',
+                ].map((skill) => (
                   <span
                     key={skill}
                     className="px-4 py-2 bg-white/5 rounded-full text-sm font-medium border border-purple-500/20"
@@ -74,9 +87,7 @@ function App() {
           <div className="grid md:grid-cols-1 gap-8">
             <div className="group relative bg-white/5 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
               <h3 className="text-xl font-semibold mb-3">Hinario IPB</h3>
-              <p className="text-gray-400 mb-4">
-                {t('hinarioDescription')}
-              </p>
+              <p className="text-gray-400 mb-4">{t('hinarioDescription')}</p>
               <a
                 href="https://hinarioipb.filipemiranda.dev"
                 target="_blank"
