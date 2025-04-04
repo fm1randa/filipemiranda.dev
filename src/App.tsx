@@ -12,7 +12,7 @@ import {
   CalendarPlus,
 } from 'lucide-react';
 import { LanguageSwitch } from './components/LanguageSwitch';
-
+import { Link } from 'react-router-dom';
 function App() {
   const { t } = useTranslation();
 
@@ -193,15 +193,13 @@ function App() {
               <Mail className="w-6 h-6" />
               <span>Email</span>
             </a>
-            <a
-              href="https://tidycal.com/filipemiranda"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/meet"
               className="flex items-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-all duration-300"
             >
               <CalendarPlus className="w-6 h-6" />
               <span>{t('bookMeeting')}</span>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
