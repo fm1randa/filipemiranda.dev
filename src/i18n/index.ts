@@ -38,7 +38,6 @@ i18n
     },
     detection: {
       order: ['navigator'],
-      lookupNavigator: true,
     },
     fallbackLng: 'en',
     interpolation: {
