@@ -62,6 +62,8 @@ function App() {
                   'NextJS',
                   'TypeScript',
                   'Tailwind CSS',
+                  'React Native',
+                  'Expo',
                 ].map((skill) => (
                   <span
                     key={skill}
