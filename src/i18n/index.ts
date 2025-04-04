@@ -11,7 +11,7 @@ i18n
         translation: {
           role: 'Full-Stack Developer crafting digital experiences',
           hireMe: 'Hire Me',
-          skillsTitle: 'Skills & Services',
+          skillsTitle: 'Skills',
           skillsDescription:
             'Full-Stack Developer specialized in React, Node.js, and NextJS, with a passion for creating performant and scalable web applications.',
           projectsTitle: 'Projects Showcase',
@@ -25,7 +25,7 @@ i18n
         translation: {
           role: 'Desenvolvedor Full-Stack criando experiências digitais',
           hireMe: 'Contrate-me',
-          skillsTitle: 'Habilidades & Serviços',
+          skillsTitle: 'Habilidades',
           skillsDescription:
             'Desenvolvedor Full-Stack especializado em React, Node.js e NextJS, com paixão por criar aplicações web performáticas e escaláveis.',
           projectsTitle: 'Portfólio de Projetos',
