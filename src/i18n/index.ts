@@ -37,10 +37,13 @@ i18n
       },
     },
     detection: {
-      order: ['navigator'],
+      order: ['localStorage', 'navigator'],
+      lookupLocalStorage: 'i18nextLng',
+      caches: ['localStorage'],
     },
-    fallbackLng: 'en',
     interpolation: {
       escapeValue: false,
     },
   });
+
+export default i18n;
