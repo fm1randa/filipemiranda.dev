@@ -178,7 +178,7 @@ function App() {
               <span>LinkedIn</span>
             </a>
             <a
-              href="https://discord.com/users/filipemiranda"
+              href="https://discordapp.com/users/filipemiranda"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-all duration-300"
