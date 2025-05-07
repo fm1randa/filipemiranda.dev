@@ -1,5 +1,5 @@
-import type React from 'react';
-import { useTranslation } from 'react-i18next';
+import type React from "react";
+import { useTranslation } from "react-i18next";
 import {
   Github,
   Linkedin,
@@ -10,16 +10,16 @@ import {
   Terminal,
   Blocks,
   CalendarPlus,
-} from 'lucide-react';
-import { LanguageSwitch } from './components/LanguageSwitch';
-import { Link } from 'react-router-dom';
+} from "lucide-react";
+import { LanguageSwitch } from "./components/LanguageSwitch";
+import { Link } from "react-router-dom";
 function App() {
   const { t } = useTranslation();
 
   const scrollToContact = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    const contactSection = document.getElementById('contact');
-    contactSection?.scrollIntoView({ behavior: 'smooth' });
+    const contactSection = document.getElementById("contact");
+    contactSection?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -34,14 +34,14 @@ function App() {
             Filipe Miranda
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 font-light">
-            {t('role')}
+            {t("role")}
           </p>
           <button
             type="button"
             onClick={scrollToContact}
             className="inline-block px-8 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full text-white font-semibold hover:from-cyan-600 hover:to-purple-700 transition-all duration-300 shadow-lg shadow-purple-500/25"
           >
-            {t('hireMe')}
+            {t("hireMe")}
           </button>
         </div>
       </div>
@@ -53,20 +53,20 @@ function App() {
             <div className="flex-1 space-y-6">
               <div className="flex items-center gap-4">
                 <Code2 className="w-8 h-8 text-cyan-400" />
-                <h2 className="text-2xl font-semibold">{t('skillsTitle')}</h2>
+                <h2 className="text-2xl font-semibold">{t("skillsTitle")}</h2>
               </div>
-              <p className="text-xl text-gray-300">{t('skillsDescription')}</p>
+              <p className="text-xl text-gray-300">{t("skillsDescription")}</p>
               <div className="flex flex-wrap gap-4">
                 {[
-                  'TypeScript',
-                  'React',
-                  'Node.js',
-                  'NextJS',
-                  'Tailwind CSS',
-                  'React Native',
-                  'Expo',
-                  'MongoDB',
-                  'PostgreSQL',
+                  "TypeScript",
+                  "React",
+                  "Node.js",
+                  "NextJS",
+                  "Tailwind CSS",
+                  "React Native",
+                  "Expo",
+                  "MongoDB",
+                  "PostgreSQL",
                 ].map((skill) => (
                   <span
                     key={skill}
@@ -87,7 +87,7 @@ function App() {
         <div className="container mx-auto px-6 relative">
           <div className="flex items-center gap-4 mb-12">
             <Blocks className="w-8 h-8 text-cyan-400" />
-            <h2 className="text-2xl font-semibold">{t('projectsTitle')}</h2>
+            <h2 className="text-2xl font-semibold">{t("projectsTitle")}</h2>
           </div>
           <div className="grid md:grid-cols-1 gap-8">
             <div className="group relative bg-white/5 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
@@ -95,7 +95,7 @@ function App() {
                 Whatsapp Bot (Taki)
               </h3>
               <p className="text-gray-400 mb-4">
-                {t('whatsappBotDescription')}
+                {t("whatsappBotDescription")}
               </p>
               <div className="flex items-center justify-between">
                 <a
@@ -104,7 +104,7 @@ function App() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300"
                 >
-                  {t('visitProject')} <ExternalLink className="w-4 h-4" />
+                  {t("visitProject")} <ExternalLink className="w-4 h-4" />
                 </a>
                 <div className="flex flex-wrap gap-2 justify-end">
                   <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
@@ -124,7 +124,7 @@ function App() {
             </div>
             <div className="group relative bg-white/5 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
               <h3 className="text-xl font-semibold mb-3">Hinario IPB</h3>
-              <p className="text-gray-400 mb-4">{t('hinarioDescription')}</p>
+              <p className="text-gray-400 mb-4">{t("hinarioDescription")}</p>
               <div className="flex items-center justify-between">
                 <a
                   href="https://hinarioipb.filipemiranda.dev"
@@ -132,7 +132,7 @@ function App() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300"
                 >
-                  {t('visitProject')} <ExternalLink className="w-4 h-4" />
+                  {t("visitProject")} <ExternalLink className="w-4 h-4" />
                 </a>
                 <div className="flex flex-wrap gap-2 justify-end">
                   <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
@@ -147,6 +147,31 @@ function App() {
                 </div>
               </div>
             </div>
+            <div className="group relative bg-white/5 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
+              <h3 className="text-xl font-semibold mb-3">Rezone</h3>
+              <p className="text-gray-400 mb-4">{t("rezoneDescription")}</p>
+              <div className="flex items-center justify-between">
+                <a
+                  href="https://rz.flpm.net"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300"
+                >
+                  {t("visitProject")} <ExternalLink className="w-4 h-4" />
+                </a>
+                <div className="flex flex-wrap gap-2 justify-end">
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                    TypeScript
+                  </span>
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                    React
+                  </span>
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                    Tailwind CSS
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -156,7 +181,7 @@ function App() {
         <div className="container mx-auto px-6">
           <div className="flex items-center gap-4 mb-12">
             <Terminal className="w-8 h-8 text-cyan-400" />
-            <h2 className="text-2xl font-semibold">{t('connectTitle')}</h2>
+            <h2 className="text-2xl font-semibold">{t("connectTitle")}</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <a
@@ -198,7 +223,7 @@ function App() {
               className="flex items-center gap-3 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-all duration-300"
             >
               <CalendarPlus className="w-6 h-6" />
-              <span>{t('bookMeeting')}</span>
+              <span>{t("bookMeeting")}</span>
             </Link>
           </div>
         </div>
