@@ -67,6 +67,8 @@ function App() {
                   "Expo",
                   "MongoDB",
                   "PostgreSQL",
+                  "Mercado Pago",
+                  "Supabase",
                 ].map((skill) => (
                   <span
                     key={skill}
@@ -168,6 +170,37 @@ function App() {
                   </span>
                   <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
                     Tailwind CSS
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="group relative bg-white/5 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
+              <h3 className="text-xl font-semibold mb-3">ChavePIX.io</h3>
+              <p className="text-gray-400 mb-4">{t("chavepixDescription")}</p>
+              <div className="flex items-center justify-between">
+                <a
+                  href="https://chavepix.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300"
+                >
+                  {t("visitProject")} <ExternalLink className="w-4 h-4" />
+                </a>
+                <div className="flex flex-wrap gap-2 justify-end">
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                    TypeScript
+                  </span>
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                    Next.js
+                  </span>
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                    Tailwind CSS
+                  </span>
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                    Mercado Pago
+                  </span>
+                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                    Supabase
                   </span>
                 </div>
               </div>
