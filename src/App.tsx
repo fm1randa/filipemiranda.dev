@@ -101,7 +101,7 @@ function App() {
               </p>
               <div className="flex items-center justify-between">
                 <a
-                  href="https://wa.me/5521936186163"
+                  href="https://bot.flpm.net?text=!ajuda"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300"
