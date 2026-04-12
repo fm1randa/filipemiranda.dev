@@ -10,6 +10,9 @@
       "correctness": {
         "noUnusedVariables": "error"
       },
+      "a11y": {
+        "useValidAnchor": "off"
+      },
       "suspicious": {
         "noExplicitAny": "error"
       },

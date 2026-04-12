@@ -1,12 +1,11 @@
-import { RouteRecord, ViteReactSSG } from "vite-react-ssg";
-import App from "./App.tsx";
-import { ExternalRedirect } from "./components/ExternalRedirect";
-import "./i18n";
-import "./index.css";
+import { RouteRecord, ViteReactSSG } from 'vite-react-ssg';
+import App from './App.tsx';
+import { ExternalRedirect } from './components/ExternalRedirect';
+import './index.css';
 
 const routes: RouteRecord[] = [
   {
-    path: "meet",
+    path: 'meet',
     element: <ExternalRedirect to="https://tidycal.com/filipemiranda" />,
   },
   {
@@ -14,7 +13,7 @@ const routes: RouteRecord[] = [
     element: <App />,
   },
   {
-    path: "*",
+    path: '*',
     element: <ExternalRedirect to="/" />,
   },
 ];
