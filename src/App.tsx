@@ -66,11 +66,6 @@ const workItems: WorkItem[] = [
 
 const projectItems: ProjectItem[] = [
   {
-    name: 'Taki',
-    url: 'https://bot.flpm.net?text=!ajuda',
-    logo: '/projects/taki.jpeg',
-  },
-  {
     name: 'Hinario IPB',
     url: 'https://hinarioipb.filipemiranda.dev',
     logo: '/projects/hinarioipb.png',
@@ -79,6 +74,11 @@ const projectItems: ProjectItem[] = [
     name: 'ChavePIX.io',
     url: 'https://chavepix.io',
     logo: '/projects/chavepix.png',
+  },
+  {
+    name: 'Taki',
+    url: 'https://bot.flpm.net?text=!ajuda',
+    logo: '/projects/taki.jpeg',
   },
 ];
 
