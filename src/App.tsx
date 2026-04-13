@@ -55,14 +55,7 @@ const workItems: WorkItem[] = [
     url: 'https://www.atendeportaria.com.br',
     logo: '/work/atende.png',
     via: mgn,
-  },
-  {
-    name: 'ByteBureau',
-    url: 'https://web.archive.org/web/20211225191847/http://www.bytebureau.com/',
-    logo: '/work/bytebureau.png',
-    via: mgn,
-  },
-];
+  ];
 
 const projectItems: ProjectItem[] = [
   {
