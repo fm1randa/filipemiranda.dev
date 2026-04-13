@@ -183,7 +183,7 @@ function Sidebar({ onClose }: { onClose: () => void }) {
             <li key={item.href}>
               <button
                 type="button"
-                className={`flex items-center gap-2.5 text-sm py-1 px-2 rounded-md transition-all duration-200 ${
+                className={`w-full flex items-center gap-2.5 text-sm py-1 px-2 rounded-md transition-all duration-200 ${
                   pathname === item.href
                     ? 'text-white bg-white/[0.08] ring-1 ring-white/10 shadow-sm font-medium'
                     : 'text-white/50 hover:text-white hover:bg-white/[0.06] hover:ring-1 hover:ring-white/10'
