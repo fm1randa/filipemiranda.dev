@@ -55,7 +55,8 @@ const workItems: WorkItem[] = [
     url: 'https://www.atendeportaria.com.br',
     logo: '/work/atende.png',
     via: mgn,
-  ];
+  },
+];
 
 const projectItems: ProjectItem[] = [
   {
