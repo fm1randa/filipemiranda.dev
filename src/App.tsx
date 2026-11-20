@@ -60,6 +60,11 @@ const workItems: WorkItem[] = [
 
 const projectItems: ProjectItem[] = [
   {
+    name: 'Lume',
+    url: 'https://minhalume.com.br',
+    logo: '/projects/lume.svg',
+  },
+  {
     name: 'Hinario IPB',
     url: 'https://hinarioipb.filipemiranda.dev',
     logo: '/projects/hinarioipb.png',
